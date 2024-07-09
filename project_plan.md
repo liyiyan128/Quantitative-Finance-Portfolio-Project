@@ -16,8 +16,11 @@
 
 --- Tech Stack ---
 
-- [QuantConnect](https://www.quantconnect.com): algorithmic trading platform
+- [BackTrader](https://www.backtrader.com/): backtesting framework
+- [Zipline](https://www.zipline.io/): algorithmic trading simulator with paper and live trading capabilities; back testing
 
+- Interactive Brokers: trading platform (paper trading)
+- [QuantConnect](https://www.quantconnect.com): algorithmic trading platform
 
 --- General finance ---
 
