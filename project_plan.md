@@ -2,7 +2,22 @@
 
 **Resource**
 
--
+--- Forums ---
+
+- [QuantNet](https://quantnet.com/)
+- [QuantStart](https://www.quantstart.com/)
+- [Wilmott](https://forum.wilmott.com/)
+
+--- Articles & Blogs ---
+
+- [Algorithmic Trading Strategies: Types, Steps, Modelling Ideas and Implementation](https://blog.quantinsti.com/algorithmic-trading-strategies/)
+
+- [Ernest Chan's blog](https://epchan.blogspot.com/): quantitative investment and trading ideas, research, and analysis
+
+--- Tech Stack ---
+
+- [QuantConnect](https://www.quantconnect.com): algorithmic trading platform
+
 
 --- General finance ---
 
