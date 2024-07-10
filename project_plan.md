@@ -4,13 +4,20 @@
 
 Project 1
 
-1. Explore trading strategies:<br>
-   basic understanding, existing implementation
-2. Get stock data, implement & backtest:<br>
-   determine data source (e.g. Yahoo Finance) and pick stocks/options
+1. Explore trading strategies: basic understanding, existing implementation<br>
+  First focus on **pair trading** (see example notebook in /src)
+
+2. Get stock data (e.g. Yahoo Finance), implement & backtest:<br>
+   Migrate the example implementation to a backtest framework (BackTrader or QuantConnect)
+
 3. Benchmark/evaluate various strategies:<br>
    e.g. return volatility, risk
-4. Detailed doc on the results --> start Project 2
+
+4. Go paper trading with IKBR
+
+**We will maintain detailed explaination on our work in README.md**
+
+--> Project 2
 
 
 **Resource**
@@ -58,6 +65,8 @@ Explore various trading strategies:
 
 - Sector-based pairs trading algorithm<br>
   Two assets within the same sector/industry will likely have similar performances and therefore any observed significant deviations in the prices of these assets can be capitalized on in the form of buying the falling asset or shorting the rising asset.
+
+  - Example 3.6: Pair Trading of GLD and GDX, Quantitative Trading by Ernest Chan
 
 - Machine learning based trading algorithm
 
