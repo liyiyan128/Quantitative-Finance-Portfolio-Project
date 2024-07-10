@@ -1,5 +1,18 @@
 # Project Plan
 
+**TODOS**
+
+Project 1
+
+1. Explore trading strategies:<br>
+   basic understanding, existing implementation
+2. Get stock data, implement & backtest:<br>
+   determine data source (e.g. Yahoo Finance) and pick stocks/options
+3. Benchmark/evaluate various strategies:<br>
+   e.g. return volatility, risk
+4. Detailed doc on the results --> start Project 2
+
+
 **Resource**
 
 --- Forums ---
@@ -22,6 +35,11 @@
 - Interactive Brokers: trading platform (paper trading)
 - [QuantConnect](https://www.quantconnect.com): algorithmic trading platform
 
+--- Data ---
+
+- Yahoo Finance
+- [Alpha Vantage API](https://www.alphavantage.co/documentation/#)
+
 --- General finance ---
 
 - [Finance Training Courses](https://www.streetofwalls.com/finance-training-courses/#hedge-fund-training)
@@ -30,7 +48,7 @@
 
 ## Project 1: Trading Strategy Implementation & Backtest
 
-**TODO**: Explore various trading strategies:
+Explore various trading strategies:
 
 - Dual class arbitrage<br>
   Taking advantage of the price discrepency that exists between stocks that have dual listings. (e.g. GOOG & GOOGL)
