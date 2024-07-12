@@ -5,15 +5,18 @@
 Project 1
 
 1. Explore trading strategies: basic understanding, existing implementation<br>
-  First focus on **pair trading** (see example notebook in /src)
+   - First focus on **pair trading** (see example notebook in /src)
 
 2. Get stock data (e.g. Yahoo Finance), implement & backtest:<br>
-   Migrate the example implementation to a backtest framework (BackTrader or QuantConnect)
+   - Migrate the example implementation to a backtest framework (BackTrader or QuantConnect)
+   - For backtest, refer to Chapter 3 of [Ernest Chan's book](https://github.com/liyiyan128/Quantitative-Finance-Portfolio-Project/blob/main/Books/Quantitative%20Trading-%20How%20to%20Build%20Your%20Own%20Algorithmic%20Trading%20Business.epub)
 
 3. Benchmark/evaluate various strategies:<br>
    e.g. return volatility, risk
+   - See Performance Measurement, Chapter 3, Ernest Chan
 
 4. Go paper trading with IKBR
+   - BackTrader API support
 
 **We will maintain detailed explaination on our work in README.md**
 
@@ -25,22 +28,22 @@ Project 1
 --- Forums ---
 
 - [QuantNet](https://quantnet.com/)
-- [QuantStart](https://www.quantstart.com/)
+- [**QuantStart**](https://www.quantstart.com/)
 - [Wilmott](https://forum.wilmott.com/)
 
 --- Articles & Blogs ---
 
-- [Algorithmic Trading Strategies: Types, Steps, Modelling Ideas and Implementation](https://blog.quantinsti.com/algorithmic-trading-strategies/)
+- [**Algorithmic Trading Strategies: Types, Steps, Modelling Ideas and Implementation**](https://blog.quantinsti.com/algorithmic-trading-strategies/)
 
 - [Ernest Chan's blog](https://epchan.blogspot.com/): quantitative investment and trading ideas, research, and analysis
 
 --- Tech Stack ---
 
-- [BackTrader](https://www.backtrader.com/): backtesting framework
+- [**BackTrader**](https://www.backtrader.com/): backtesting framework
 - [Zipline](https://www.zipline.io/): algorithmic trading simulator with paper and live trading capabilities; back testing
 
-- Interactive Brokers: trading platform (paper trading)
-- [QuantConnect](https://www.quantconnect.com): algorithmic trading platform
+- **Interactive Brokers**: trading platform (paper trading)
+- [**QuantConnect**](https://www.quantconnect.com): algorithmic trading platform
 
 --- Data ---
 
@@ -63,7 +66,7 @@ Explore various trading strategies:
 - Bollinger band strategy<br>
   Bollinger bands are calculated by taking the 20-day simple moving average (SMA) of a stock price and then calculating the upper and lower bounds as the SMA +- two standard deviations of the actual stock price.
 
-- Sector-based pairs trading algorithm<br>
+- **Sector-based pairs trading algorithm**<br>
   Two assets within the same sector/industry will likely have similar performances and therefore any observed significant deviations in the prices of these assets can be capitalized on in the form of buying the falling asset or shorting the rising asset.
 
   - Example 3.6: Pair Trading of GLD and GDX, Quantitative Trading by Ernest Chan
