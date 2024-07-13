@@ -11,8 +11,7 @@ Project 1
    - Migrate the example implementation to a backtest framework (BackTrader or QuantConnect)
    - For backtest, refer to Chapter 3 of [Ernest Chan's book](https://github.com/liyiyan128/Quantitative-Finance-Portfolio-Project/blob/main/Books/Quantitative%20Trading-%20How%20to%20Build%20Your%20Own%20Algorithmic%20Trading%20Business.epub)
 
-3. Benchmark/evaluate various strategies:<br>
-   e.g. return volatility, risk
+3. Benchmark/evaluate various strategies: e.g. return volatility, risk<br>
    - See Performance Measurement, Chapter 3, Ernest Chan
 
 4. Go paper trading with IKBR
@@ -40,6 +39,7 @@ Project 1
 --- Tech Stack ---
 
 - [**BackTrader**](https://www.backtrader.com/): backtesting framework
+- [bt](https://pmorissette.github.io/bt/): MIT lisence
 - [Zipline](https://www.zipline.io/): algorithmic trading simulator with paper and live trading capabilities; back testing
 
 - **Interactive Brokers**: trading platform (paper trading)
