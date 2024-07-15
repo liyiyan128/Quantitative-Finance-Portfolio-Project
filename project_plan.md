@@ -19,6 +19,8 @@ Project 1
 
 **We will maintain detailed explaination on our work in README.md**
 
+- [Pairs Trading Python Implementation Explained](https://github.com/KidQuant/Pairs-Trading-With-Python/blob/master/PairsTrading.ipynb): underlying maths covered!
+
 --> Project 2
 
 
