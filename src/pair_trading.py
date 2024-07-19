@@ -101,11 +101,15 @@ class PairTrading(bt.Strategy):
 
         # Exit position
         elif abs(self.zscore) < self.params.exit_threshold:
-            self.log('CLOSE %s, price = %.2f' % ("TICK0", self.data0.close[0]))
+            self.log('CLOSE %s, price = %.2f' % ("TICK0", self.datas[0].close[0]))
             self.close(self.datas[0])
-            self.log('CLOSE %s, price = %.2f' % ("TICK1", self.data1.close[0]))
+            self.log('CLOSE %s, price = %.2f' % ("TICK1", self.datas[1].close[0]))
             self.close(self.datas[1])
             self.status = 0
+
+            # update positions
+            self.qty0 = 0
+            self.qty1 = 0
 
 
 if __name__ == '__main__':
@@ -125,6 +129,7 @@ if __name__ == '__main__':
     cerebro.adddata(data1, name='GDX')  # Add the data feed
 
     cerebro.broker.setcash(10000)  # set cash
+    cerebro.broker.setcommission(commission=0.001)  # set commission
 
     cerebro.addstrategy(PairTrading)  # Add the trading strategy
 
